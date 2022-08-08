@@ -13,11 +13,11 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 url = 'https://www.canaldapeca.com.br/'
 
 driver.get(url)
-time.sleep(3)
+time.sleep(10)
 
 # START WITH "MOTOR" SECTION AND GET FIRST PAGE DATA
 driver.find_element(By.XPATH, '//*[@id="header-div"]/div[2]/nav/div/div/div/ul/li[1]/span/a').click()
-time.sleep(3)
+time.sleep(10)
 
 products = driver.find_elements(By.CLASS_NAME, 'y-item-wrapper-showcase')
 
@@ -38,7 +38,7 @@ for product in products:
 driver.find_element(By.XPATH, '//*[@id="header-div"]/div[2]/nav/div/div/div/ul/li[2]/span/a').click()
 
 products = driver.find_elements(By.CLASS_NAME, 'y-item-wrapper-showcase')
-time.sleep(3)
+time.sleep(10)
 
 print('SUSPENSÃO')
 for product in products:

@@ -1,10 +1,10 @@
 # web-crawler
-Web crawler to obtain data from the Brazilian government (ministry of the environment).
+Web crawler to obtain data from a specific store.
 
 PROJECT STATUS: IN-PROGRESS
 
 ### Plan
-Access open data portal, filter and download file [link](https://www.portaltransparencia.gov.br/despesas/orgao?paginacaoSimples=true&tamanhoPagina=&offset=&direcaoOrdenacao=asc&de=01%2F01%2F2022&ate=31%2F07%2F2022&orgaos=OS44000&colunasSelecionadas=linkDetalhamento%2CmesAno%2CorgaoSuperior%2CorgaoVinculado%2CvalorDespesaEmpenhada%2CvalorDespesaLiquidada%2CvalorDespesaPaga%2CvalorRestoPago)
+Access store web site and get info from each product
 > - Selenium to simulate human interaction with the portal
 > - Virtualenv to encapsulate requirements
 > - Schedule to set automatic routine
